@@ -1,0 +1,123 @@
+
+header{
+    background-color:white;
+    padding:10px;
+}
+#histogramimg{
+    position:relative;
+    height: 50px;
+    width: 50px;
+    top:10px;
+}
+
+#headertext{
+    position:relative;
+    font-family: Impact, fantasy;
+    
+}
+h2,h3,h4{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+body{
+    background-color: rgb(236, 232, 232);
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    color: black;
+    
+    border: thin solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#bounds{
+    position: relative;
+    left:10px;
+}
+#max,#Aplus,#A,#Aminus,#Bplus,#B,#Bminus,#Cplus,#C,#Cminus,#D,#F{
+    width : 80px;
+    
+}
+
+#graph{
+    background-color: white;
+    height:430px;
+    width:70%
+}
+h3,h4{
+    font-size: 20px;
+}
+h4{
+    position: relative;
+    top:10px;
+    left:10px;
+}
+#stats{
+    position:relative;
+    background-color: white;
+    top:-456px;
+    left:1020px;
+    height:430px;
+    width:400px;
+}
+.statistic{
+    position:relative;
+    font-weight:bold;
+    left:30px;
+}
+#top{
+    position:absolute;
+    left:100px;
+    top:35px;
+}
+#min{
+    position:absolute;
+    left:100px;
+    top:65px;
+}
+#mean{
+    position:absolute;
+    left:100px;
+    top:100px;
+}
+#median{
+    position:absolute;
+    left:100px;
+    top:135px;
+}
+
+#graphAplus{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+    
+}
+
+#graphA{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}
+#graphAminus{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}
+#graphBplus{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}
+#graphB{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}
+#graphBminus{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}
+#graphCplus{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}
+#graphC{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}
+#graphCminus{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}
+#graphD{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}
+#graphF{
+    background: steelblue; padding: 5px; margin: 1px; width: 0px;
+}

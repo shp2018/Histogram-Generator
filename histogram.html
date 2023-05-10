@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>CMPT272 Assignment 2 </title>
+    <link rel="stylesheet" href="histogram.css">
+    <script src="calculate.js"></script>
+    <meta charset="UTF-8">
+  </head>
+
+
+
+  <body id ="histbody" onload="init()">
+    <header>
+      <h1><img id ="histogramimg" src="hist.png" alt="HistogramImage">
+        <span id = "headertext">Histogram Generator</span>
+          
+      </h1>
+      <input id="fileInput" type="file" name="file">
+    </header>
+  <section>
+    <h2> Lower Bounds </h2>
+    <form id = "bounds">
+    <label for="max">Max</label>
+    <input type="number" step="any" id="max" name="max" min="0" max="100" value ="100">
+
+    <label for="Aplus">A+</label>
+    <input type="number" step="any" id="Aplus" name="Aplus" min="0" max="100" value ="95">
+
+    <label for="A">A</label>
+    <input type="number" step="any" id="A" name="A" min="0" max="100" value ="90">
+
+    <label for="Aminus">A-</label>
+    <input type="number" step="any" id="Aminus" name="Aminus" min="0" max="100" value ="85">
+
+    <label for="Bplus">B+</label>
+    <input type="number" step="any" id="Bplus" name="Bplus" min="0" max="100" value ="80">
+
+    <label for="B">B</label>
+    <input type="number" step="any" id="B" name="B" min="0" max="100" value ="75">
+
+    <label for="Bminus">B-</label>
+    <input type="number" step="any" id="Bminus" name="Bminus" min="0" max="100" value ="70">
+
+    <label for="Cplus">C+</label>
+    <input type="number" step="any" id="Cplus" name="Cplus" min="0" max="100" value ="65">
+
+    <label for="C">C</label>
+    <input type="number" step="any" id="C" name="C" min="0" max="100" value ="60">
+
+    <label for="Cminus">C-</label>
+    <input type="number" step="any" id="Cminus" name="Cminus" min="0" max="100" value ="55">
+
+    <label for="D">D</label>
+    <input type="number" step="any" id="D" name="D" min="0" max="100" value ="50">
+
+    <label for="F">F</label>
+    <input type="number" step="any" id="F" name="F" min="0" max="100" value ="0">
+
+  </form>
+
+
+
+  </section>
+  <section id = graph onload="init()">
+    <h3>Histogram</h3>
+   
+      <div id = "graphAplus">A+</div>
+      <div id = "graphA"><span>A</span></div>
+      <div id = "graphAminus"><span>A-</span></div>
+      <div id = "graphBplus"><span>B+</span></div>
+      <div id = "graphB"><span>B</span></div>
+      <div id = "graphBminus"><span>B-</span></div>
+      <div id = "graphCplus"><span>C+</span></div>
+      <div id = "graphC"><span>C</span></div>
+      <div id = "graphCminus"><span>C-</span></div>
+      <div id = "graphD"><span>D</span></div>
+      <div id = "graphF"><span>F</span></div>
+      <div id = "OutofBounds"></div>
+      
+      
+
+  </section>
+  
+  <section id="stats" onload="init()">
+    <h4>Stats</h4>
+    <p class = "statistic">Highest</p>
+    <p id="top"></p>
+    <p class = "statistic">Lowest</p>
+    <p id="min"></p>
+    <p class = "statistic">Mean</p>
+    <p id="mean"></p>
+    <p class = "statistic">Median</p>
+    <p id="median"></p>
+  </section>
+
+
+    
+  </body>
+</html>
